@@ -1,0 +1,5 @@
+@mixin for-medium-screen-up {
+  @media (min-width: 700px) {
+    @content;
+  }
+}

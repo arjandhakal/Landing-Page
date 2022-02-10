@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar color-white">
       <div className="navbar__icon">
         <h2>Happy Launcher</h2>
       </div>

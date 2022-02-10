@@ -7,7 +7,9 @@ interface IProps {
 
 const Container: React.FC<IProps> = ({ children, spacing }) => {
   return (
-    <div className={`container ${spacing && "flow-content"}`}>{children}</div>
+    <div className={`container ${spacing ? "flow-content" : ""}`}>
+      {children}
+    </div>
   );
 };
 

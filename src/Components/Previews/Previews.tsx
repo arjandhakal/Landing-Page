@@ -10,31 +10,34 @@ const Previews: React.FC = () => {
   return (
     <section className="previews">
       <Container spacing={true}>
-        <div className="previews__sticky-div">
-          <h3>The psychology of color</h3>
-          <p>
-            Each color portrays a different feeling or emotion, and by
-            understanding the psychology of color, you can choose a color that
-            will resonate with your target audience and give off the vibe &
-            emotion you want.
-          </p>
-        </div>
-        <div className="previews__preview flow-content">
-          <PreviewCard
-            heading={"Distraction Free"}
-            imgURL={FeatureImage}
-            detail={detail}
-          />
-          <PreviewCard
-            heading={"Distraction Free"}
-            imgURL={FeatureImage}
-            detail={detail}
-          />
-          <PreviewCard
-            heading={"Distraction Free"}
-            imgURL={FeatureImage}
-            detail={detail}
-          />
+        <div id="wrapper">
+          <div className="previews__sticky-div">
+            <h3 className="section-title">Preview of the launcher</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              quibusdam ipsam assumenda ad expedita obcaecati hic cumque
+              reiciendis quo nulla ipsa, unde ducimus saepe, quisquam tempore
+              numquam. Quibusdam, ex aliquid.
+            </p>
+          </div>
+
+          <div className="previews__preview flow-content">
+            <PreviewCard
+              heading={"Distraction Free"}
+              imgURL={FeatureImage}
+              detail={detail}
+            />
+            <PreviewCard
+              heading={"Distraction Free"}
+              imgURL={FeatureImage}
+              detail={detail}
+            />
+            <PreviewCard
+              heading={"Distraction Free"}
+              imgURL={FeatureImage}
+              detail={detail}
+            />
+          </div>
         </div>
       </Container>
     </section>

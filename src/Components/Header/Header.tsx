@@ -6,13 +6,16 @@ import HeroBackgroundImage from "../../assets/images/hero_bg.png";
 const Header: React.FC = () => {
   return (
     <header className="hero">
-      <Container>
+      <Container spacing={false}>
         <Navbar />
       </Container>
       <Container spacing={true}>
         <div className="hero__left">
-          <h1 className="primary-title"> An amazing mobile launcher</h1>
-          <p>
+          <h1 className="primary-title color-white">
+            {" "}
+            An amazing mobile launcher
+          </h1>
+          <p className="color-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Consectetur velit recusandae accusamus, incidunt cupiditate expedita
             vero dolores assumenda enim aperiam corporis repellat totam eum aut
